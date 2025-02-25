@@ -13,10 +13,10 @@ function App() {
   return (
     <div >
       <Button type="primary" onClick={() => handleClick('Primario')}>
-        Botón Primario
+        primario
       </Button>
       <Button type="secondary" onClick={() => handleClick('Secundario')}>
-        Botón Secundario
+        secundario
       </Button>
 
       <div className="separador"></div>
