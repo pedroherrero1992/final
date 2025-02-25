@@ -1,4 +1,6 @@
 # Parcial Pedro Alipio Herrero Segura Lab IV
+
+# Y un Escudo del mas grande porque el profe se lo merece
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Escudo_del_Club_Independiente_Rivadavia.svg/800px-Escudo_del_Club_Independiente_Rivadavia.svg.png" alt="Descripción de la imagen" width="200" 
      height="200">
 
