@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+.separador {
+  width: 80%;               /* El separador ocupa el 80% del ancho de la pantalla */
+  height: 1px;              /* Hacemos la línea más fina (1px de grosor) */
+  background-color: #d3d3d3; /* Un gris más claro (más sutil) */
+  margin: 20px auto;        /* Centra la línea y le da un margen vertical */
+  border-radius: 1px;       /* Bordes ligeramente redondeados (opcional) */
+}
+
+

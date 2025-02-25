@@ -1,0 +1,49 @@
+// Clase para "A TODO MOTOR AUTOS"
+.a-todo-motor-autos {
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  // Clase para "Publicá sin registrarte y en un sólo paso..."
+  .publica-sin-registrarte {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    color: black; // El color no fue especificado, por lo que lo dejé en negro
+  }
+  
+  // Clase para "Destacados"
+  .destacados {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+  }
+  // Clase para ordenar elementos verticalmente (en columna)
+.ordenar-vertical {
+    display: flex;
+    flex-direction: column; // Los elementos se apilan verticalmente
+    align-items: center;    // Centra los elementos horizontalmente (opcional)
+    justify-content: center; // Centra los elementos verticalmente (opcional)
+  }
+  
+  // Clase para ordenar elementos horizontalmente (en fila)
+  .ordenar-horizontal {
+    display: flex;
+    flex-direction: row;    // Los elementos se colocan en fila
+    //flex-wrap: wrap; // Permite que los elementos se ajusten si no caben en una línea
+    align-items: center;    // Centra los elementos verticalmente (opcional)
+    justify-content: center; // Centra los elementos horizontalmente (opcional)
+  }
+
+
+  .separador {
+    width: 80%;               // El separador ocupa el 80% del ancho de la pantalla
+    height: 2px;              // Altura de la línea (el grosor de la "lina" gris)
+    background-color: gray;   // El color de la línea
+    margin: 20px auto;        // Centra la línea y le da un margen vertical
+    border-radius: 1px;       // Opcional: para bordes redondeados (si deseas)
+  }
+  
+  

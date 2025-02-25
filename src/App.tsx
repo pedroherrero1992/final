@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form';
+import Table from './components/Table';
+import Card from './components/card/Card';
+import Button from './components/btn/Button';
 
 function App() {
+  const handleClick = (buttonType: string) => {
+    alert(`¡Hiciste clic en el botón ${buttonType}!`);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Button type="primary" onClick={() => handleClick('Primario')}>
+        Botón Primario
+      </Button>
+      <Button type="secondary" onClick={() => handleClick('Secundario')}>
+        Botón Secundario
+      </Button>
+
+      <div className="separador"></div>
+      <Form></Form>
+
+      <div className="separador"></div>
+      <Table></Table>
+
+      <div className="separador"></div>
+      <Card imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQSkw2nEjil00Y_Vuw3j9JiDtAcjzol3Mfkw&s" altText="Otra imagen">
+        <p>Otro contenido dentro de la tarjeta.</p>
+      </Card>
     </div>
   );
 }
