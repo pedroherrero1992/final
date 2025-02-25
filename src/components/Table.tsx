@@ -9,6 +9,12 @@ interface Person {
   email: string;
 }
 
+// Interfaz para la configuración de ordenación
+interface SortConfig {
+  key: keyof Person;
+  direction: 'ascending' | 'descending';
+}
+
 const Tabla: React.FC = () => {
   // Datos de ejemplo
   const [data, setData] = useState<Person[]>([
@@ -17,9 +23,9 @@ const Tabla: React.FC = () => {
     { id: 3, name: 'Pedro', age: 30, email: 'pedro@example.com' },
     { id: 4, name: 'Laura', age: 26, email: 'laura@example.com' },
   ]);
-  
+
   // Estado para manejar la columna y el orden de ordenación
-  const [sortConfig, setSortConfig] = useState<{ key: keyof Person; direction: 'ascending' | 'descending' }>({
+  const [sortConfig, setSortConfig] = useState<SortConfig>({
     key: 'name',
     direction: 'ascending',
   });
