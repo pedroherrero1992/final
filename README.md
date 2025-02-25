@@ -1,5 +1,6 @@
 # Parcial Pedro Alipio Herrero Segura Lab IV
-<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Escudo_del_Club_Independiente_Rivadavia.svg/800px-Escudo_del_Club_Independiente_Rivadavia.svg.png" alt="Descripción de la imagen">
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Escudo_del_Club_Independiente_Rivadavia.svg/800px-Escudo_del_Club_Independiente_Rivadavia.svg.png" alt="Descripción de la imagen" width="200" 
+     height="200">
 
 
 # Getting Started with Create React App
